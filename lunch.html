@@ -1,0 +1,329 @@
+<html>
+    <head>
+       
+        <link rel="stylesheet" href="CSS/fooditem.css">
+    <script src="JS/lunch.js"></script>   
+
+    </head>
+    <body background="Images/wall.jpeg">
+      <marquee>
+       <font  color="green" >  
+        <h1 align="center" style="font-size: 200px;" >$***LUNCH MENU***$</h1>
+        </font>
+      </marquee>
+
+    <div class="flex">
+      
+        <div class="food">
+         <div class="container">
+            <img src="Images/chickenbriyani.jpeg"  class="food-img" height="300" width="250" >
+            <div class="overlay">It Consists of<br> 1 Bowl of Chicken Briyani  ,<br>1 cup of onion Raita,<br>
+              1 cup of Gravy,<br>1 Boiled egg,<br>1 cup of Bread Halwa.</div>
+              </div>
+            <h1>CHICKEN BIRYANI</h1>
+            <P  id="t"> Do you want to order a  Chicken Biryani</P>
+            <h3>Rs.200/-</h3>
+            <form >
+              <label for="a">QUANTITY:</label>
+              <input type="number" id="a" name="a"><br><br>
+            </form>
+            <center><input type="button" value="click" class="b"  id="btn" onclick="ordered()"></center>
+          </div> 
+
+
+          <div class="food">
+            <div class="container">
+            <img src="Images/muttonbriyani.jpg"  class="food-img" height="300" width="250" >
+            <div class="overlay">It Consists of<br> 1 Bowl of Mutton Briyani  ,<br>1 cup of onion Raita,<br>
+              1 cup of Gravy,<br>1 Boiled egg,<br>1 cup of Bread Halwa.</div>
+            </div>
+            <h1>MUTTON BIRYANI</h1>
+            <P id="t1">Do you want to order a Mutton Biryani </P>
+            <h3>Rs.300/-</h3>
+            <form >
+              <label for="b">QUANTITY:</label>
+              <input type="number" id="b" name="b"><br><br>
+            </form>
+            <center><input type="button" value="click" class="b"  id="btn1" onclick="ordered1()"> </center>
+          </div>
+
+
+        <div class="food">
+          <div class="container">
+            <img src="Images/prawnbriyani.jpg" class="food-img"   height="300" width="250" >
+            <div class="overlay">It Consists of<br> 1 Bowl of Prawn Briyani  ,<br>1 cup of onion Raita,<br>
+              1 cup of Gravy,<br>1 Boiled egg,<br>1 cup of Bread Halwa.</div>
+            </div>
+            <h1>PRAWN BIRYANI</h1>
+            <P  id="t2">Do you want to order a Prawn Biryani</P>
+            <h3>Rs.250/-</h3>
+            <form >
+              <label for="c">QUANTITY:</label>
+              <input type="number" id="c" name="c"><br><br>
+            </form>
+            <center> <input type="button" value="click" class="b"  id="btn2" onclick="ordered2()"></center>
+          </div>
+
+
+          <div class="food">
+            <div class="container">
+            <img src="Images/vegmeals.jpeg"  class="food-img" height="300" width="250" >
+            <div class="overlay">It Consists of<br>Unlimited Rice  ,<br>1 cup of sambar,<br>
+              1 cup of Rasam,<br>1 cup of Curd,<br>1 cup of kaara kuzhambu ,<br>1 cup of cabbage kootu,
+              <br>1 cup of potato kootu,<br>1 small cup of mango pickel,1 fried applam,1 vada,1 cup of payasam.</div>
+            </div>
+            <h1>VEG MEALS</h1>
+            <P id="t3">Do you want to order a Veg Meals</P>
+            <h3>Rs.250/-</h3>
+            <form >
+              <label for="d">QUANTITY:</label>
+              <input type="number" id="d" name="d"><br><br>
+            </form>
+            <center><input type="button" value="click" class="b"  id="btn3" onclick="ordered3()"> </center>
+          </div>
+
+
+        <div class="food">
+            <div class="container">
+            <img src="Images/nonvegfullmeal.jpeg"  class="food-img" height="300" width="250" >
+            <div class="overlay">It Consists of<br>Unlimited Rice  ,<br>1 cup of fish curry,<br>
+              1 cup of Rasam,<br>1 cup of Curd,<br>1 cup of mutton curry ,<br>1 cup of chicken curry,
+              <br>1 cup of onion raita,<br>1 small cup of mango pickel,<br>1 cup of cabbage kootu,<br>
+              1 small fishfry,1 egg,1 cup of payasam.</div>
+            </div>
+            <h1>NON-VEG MEALS</h1>
+            <P id="t4">Do you want to order a Non-Veg Meals</P>
+            <h4>Rs.300/-</h4>
+            <label for="e">QUANTITY:</label>
+            <input type="number" id="e" name="e"><br><br>
+           
+            <center><input type="button" value="click" class="b"  id="btn4" onclick="ordered4()"></center> 
+        </div>
+
+
+        <div class="food">
+          <div class="container">
+            <img src="Images/chickenfriedrice.jpg"  class="food-img" height="300" width="250" >
+            <div class="overlay">It Consists of<br> 1 Bowl of Chicken Fried Rice,
+              <br>1 small cup of Tomato sauce,<br>1 small cup of Chilli sauce .</div>
+            </div>
+            <h1>CHICKEN FRIED RICE</h1>
+            <P id="t5">Do you want to order a Chicken Fried Rice</P>
+            <h3>Rs.150/-</h3>
+            <form >
+              <label for="f">QUANTITY:</label>
+              <input type="number" id="f" name="f"><br><br>
+            </form>
+            <center><input type="button" value="click" class="b"  id="btn5" onclick="ordered5()"> </center>
+          </div>
+
+
+          <div class="food">
+            <div class="container">
+            <img src="Images/mushroomfriedrice.jpeg"  class="food-img" height="300" width="250" >
+            <div class="overlay">It Consists of<br> 1 Bowl of Mushroom Fried Rice,
+              <br>1 small cup of Tomato sauce,<br>1 small cup of Chilli sauce .</div>
+            </div>
+            <h1> MUSHROOM FRIEDRICE</h1>
+            <P id="t6">Do you want to order a Mushroom FriedRice</P>
+            <h3>Rs.120/-</h3>
+            <form >
+              <label for="g">QUANTITY:</label>
+              <input type="number" id="g" name="g"><br><br>
+            </form>
+            <center><input type="button" value="click" class="b"  id="btn6" onclick="ordered6()"> </center>
+          </div>
+
+
+        <div class="food">
+          <div class="container">
+            <img src="Images/chickentandoori.jpg"  class="food-img" height="300" width="250" >
+            <div class="overlay">It Consists of<br> 1 Full Chicken Thandoori,
+              <br>1 small cup of Mayonnaise,<br>1 small cup of mint yogurt.</div>
+            </div>
+            <h1>FULL CHICKEN TANDOORI</h1>
+            <P id="t7">Do you want to order a Full Chicken Tandoori</P>
+            <h3>Rs.400/-</h3>
+            <label for="h">QUANTITY:</label>
+            <input type="number" id="h" name="h"><br><br>
+            
+            <center><input type="button" value="click" class="b"  id="btn7" onclick="ordered7()"> </center>
+        </div>
+
+
+        <div class="food">
+          <div class="container">
+            <img src="Images/halfchickenthandoori.jpg"  class="food-img" height="300" width="250" >
+            <div class="overlay">It Consists of<br> 1 Half Chicken Thandoori,
+              <br>1 small cup of Mayonnaise,<br>1 small cup of mint yogurt.</div>
+            </div>
+            <h1>HALF CHICKEN TANDOORI</h1>
+            <P id="t8">Do you want to order a Half Chicken Thandoori</P>
+            <h3>Rs.200/-</h3>
+            <form >
+              <label for="i">QUANTITY:</label>
+              <input type="number" id="i" name="i"><br><br>
+            </form>
+            <center><input type="button" value="click" class="b"  id="btn8" onclick="ordered8()"> </center>
+          </div>
+          
+          <div class="food">
+            <div class="container">
+            <img src="Images/chicken65.jpeg"  class="food-img" height="300" width="250" >
+            <div class="overlay">It Consists of<br> 12 pieces Chicken 65,
+              <br>1/4 lemon.</div>
+            </div>
+           <h1>CHICKEN 65</h1>
+            <P id="t9">Do you want to order a Chicken 65</P>
+            <h3>Rs.100/-</h3>
+            <form >
+              <label for="j">QUANTITY:</label>
+              <input type="number" id="j" name="j"><br><br>
+            </form>
+            <center><input type="button" value="click" class="b"  id="btn9" onclick="ordered9()"> </center>
+          </div>
+
+          
+          <div class="food">
+            <img src="Images/crabgravy.jpeg"  class="food-img" height="300" width="250" >
+            <h1>CRAB GRAVY</h1>
+            <P id="t10">Do you want to order a Crab Gravy</P>
+            <h3>Rs.150/-</h3>
+            <form >
+              <label for="k">QUANTITY:</label>
+              <input type="number" id="k" name="k"><br><br>
+            </form>
+            <center><input type="button" value="click" class="b"  id="btn10" onclick="ordered10()"> </center>
+          </div>
+
+          <div class="food">
+            <img src="Images/prawngravy.jpg"  class="food-img" height="300" width="250" >
+            <h1>PRAWN GRAVY</h1>
+            <P id="t11">Do you want to order a Prawn Gravy</P>
+            <h3>Rs.120/-</h3>
+            <form >
+              <label for="l">QUANTITY:</label>
+              <input type="number" id="l" name="l"><br><br>
+            </form>
+            <center><input type="button" value="click" class="b"  id="btn11" onclick="ordered11()"> </center>
+          </div>
+          
+          <div class="food">
+            <div class="container">
+            <img src="Images/curdrice.jpeg"  class="food-img" height="300" width="250" >
+            <div class="overlay">It Consists of<br> 1 bowl of curdrice,
+              <br>1 small cup of two differnt varieties of pickel,<br>1 applam.</div>
+            </div>
+            <h1>CURD RICE</h1>
+            <P id="t12">Do you want to order a Curd Rice</P>
+            <h3>Rs.70/-</h3>
+            <form >
+              <label for="m">QUANTITY:</label>
+              <input type="number" id="m" name="m"><br><br>
+            </form>
+            <center><input type="button" value="click" class="b"  id="btn12" onclick="ordered12()"> </center>
+          </div> 
+
+          <div class="food">
+            <div class="container">
+            <img src="Images/sambarrice.jpeg"  class="food-img" height="300" width="250" >
+            <div class="overlay">It Consists of<br> 1 bowl of Sambar Rice,
+              <br>1 small cup of two differnt varieties of pickel,<br>1 applam.</div>
+            </div>
+            <h1>SAMBAR RICE</h1>
+            <P id="t13">Do you want to order a Sambar Rice</P>
+            <h3>Rs.70/-</h3>
+            <form >
+              <label for="n">QUANTITY:</label>
+              <input type="number" id="n" name="n"><br><br>
+            </form>
+            <center><input type="button" value="click" class="b"  id="btn13" onclick="ordered13()"> </center>
+          </div>
+
+          <div class="food">
+            <div class="container">
+            <img src="Images/coconutrice.jpeg"  class="food-img" height="300" width="250" >
+            <div class="overlay">It Consists of<br> 1 bowl of  Coconut Rice,
+              <br>1 small cup of two differnt varieties of pickel,<br>1 applam.</div>
+            </div>
+            <h1>COCONUT RICE</h1>
+            <P id="t14">Do you want to order a Coconut Rice</P>
+            <h3>Rs.75/-</h3>
+            <form >
+              <label for="o">QUANTITY:</label>
+              <input type="number" id="o" name="o"><br><br>
+            </form>
+            <center><input type="button" value="click" class="b"  id="btn14" onclick="ordered14()"> </center>
+          </div>  
+
+          <div class="food">
+            <div class="container">
+            <img src="Images/tamarindrice.jpeg"  class="food-img" height="300" width="250" >
+            <div class="overlay">It Consists of<br> 1 bowl of Tamarind Rice,
+              <br>1 small cup of two differnt varieties of pickel,<br>1 applam.</div>
+            </div>
+            <h1>TAMARIND RICE</h1>
+            <P id="t15">Do you want to order a Tamarind Rice</P>
+            <h3>Rs.60/-</h3>
+            <form >
+              <label for="p">QUANTITY:</label>
+              <input type="number" id="p" name="p"><br><br>
+            </form>
+            <center><input type="button" value="click" class="b"  id="btn15" onclick="ordered15()"> </center>
+          </div>  
+
+          <div class="food">
+            <div class="container">
+            <img src="Images/lemonrice.jpg"  class="food-img" height="300" width="250" >
+            <div class="overlay">It Consists of<br> 1 bowl of  Lemon Rice,
+              <br>1 small cup of two differnt varieties of pickel,<br>1 applam.</div>
+            </div>
+            <h1>LEMON RICE </h1>
+            <P id="t16">Do you want to order a Lemon Rice</P>
+            <h3>Rs.65/-</h3>
+            <form >
+              <label for="q">QUANTITY:</label>
+              <input type="number" id="q" name="q"><br><br>
+            </form>
+            <center><input type="button" value="click" class="b"  id="btn16" onclick="ordered16()"> </center>
+          </div> 
+
+          <div class="food">
+            <img src="Images/icecream.jpeg"  class="food-img" height="300" width="250" >
+            <h1>ICE CREAM</h1>
+            <P id="t17">Do you want to order a Ice Cream</P>
+            <h3>Rs.130/-(For All Flavors)</h3>
+            <form>
+            <labrl>Flavors</labrl>
+          <select >
+            <option>Chocolate </option>
+            <option>Vannila</option>
+            <option>Strawberry</option>
+            <option>Pista</option>
+            <option>BlueBerry</option>
+            <option>Butterscotch</option>
+
+          </select> 
+              <br><label for="r">QUANTITY:</label>
+              <input type="number" id="r" name="r"><br><br>
+            </form>
+            <center><input type="button" value="click" class="b"  id="btn17" onclick="ordered17()"> </center>
+          </div> 
+          <div class="food">
+            <img src="Images/fishfry.jpeg"  class="food-img" height="300" width="250" >
+            <h1>FISH FRY</h1>
+            <P id="t18">Do you want to order a Fish Fry</P>
+            <h3>Rs.110/-</h3>
+            <form >
+              <label for="s">QUANTITY:</label>
+              <input type="number" id="s" name="s"><br><br>
+            </form>
+            <center><input type="button" value="click" class="b"  id="btn18" onclick="ordered18()"> </center>
+          </div> 
+    </div> 
+    
+    <center><input type="button" value="GENERATE BILL" class="button"  id="button"  onclick="bill()">  
+    
+</center>
+    </body>
+</html>
