@@ -1,0 +1,320 @@
+<html>
+    <head>
+      <link rel="stylesheet" href="CSS/fooditem.css">
+      <script src="JS/breakfast.js"></script>   
+    </head>
+    <body background="Images/wall.jpeg">
+      <marquee>
+        <font  color="green" >  
+        <h1 align="center" style="font-size: 200px;" >$***BREAKFAST MENU***$</h1>
+        </font>
+      </marquee>
+      <div class="flex">
+        <div class="food">
+          <div class="container">
+            <img src="Images/idli.jpg"  class="image"  >
+            <div class="overlay">It Consists of,<br> 4 Idlies,<br>1 cup of sambar,<br>
+            1 cup of onion chutne,,<br>1 cup of coconut chutney,<br>1 cup of Mint Chutney,
+            <br>1/2 cup of Idly podi.</div>
+          </div> 
+          <h1>IDLY</h1>
+          <P  id="t"> Do you want to order a  Idly</P>
+          <h3>Rs.60/-</h3>
+          <form >
+            <label for="idly">QUANTITY:</label>
+            <input type="number" id="idly" name="idly"><br><br>
+          </form>
+          <center><input type="button" value="click" class="b"  id="btn" onclick="ordered()"></center>
+        </div>
+         
+
+
+        <div class="food">
+          <div class="container">
+            <img src="Images/minidly.jpeg"  class="image" >
+            <div class="overlay">It can be served with one bowl of sambar with 20 mini idly</div>
+          </div>
+          <h1>MINI IDLY</h1>
+          <P id="t1">Do you want to order a Mini Idly </P>
+          <h3>Rs.70/-</h3>
+          <form >
+            <label for="minidly">QUANTITY:</label>
+            <input type="number" id="minidly" name="minidly"><br><br>
+          </form>
+          <center><input type="button" value="click" class="b"  id="btn1" onclick="ordered1()"> </center>
+        </div>
+      
+
+
+
+        <div class="food">
+          <div class="container">
+            <img src="Images/dosa.jpg" class="image" >
+            <div class="overlay">It Consists of<br> 1 dosa,<br>1 cup of sambar,<br>
+              1 cup of onion chutney,<br>1 cup of coconut chutney,<br>1 cup of Mint
+              Chutney,<br>1/2 cup of Idly podi.</div>
+            </div>
+            <h1>DOSA</h1>
+            <P  id="t2">Do you want to order a Dosa</P>
+            <h3>Rs.65/-</h3>
+            <form >
+              <label for="dosa">QUANTITY:</label>
+              <input type="number" id="dosa" name="dosa"><br><br>
+            </form>
+            <center> <input type="button" value="click" class="b"  id="btn2" onclick="ordered2()"></center>
+          </div>
+      
+
+
+
+        
+        <div class="food">
+          <div class="container">
+            <img src="Images/ravadosa.jpeg"  class="image" >
+            <div class="overlay">It Consists of<br> 1 Rava dosa,<br>1 cup of sambar,<br>
+            1 cup of onion chutney,<br>1 cup of coconut chutney,<br>1 cup of Mint
+            Chutney,<br>1/2 cup of Idly podi.</div>
+            </div>
+            <h1>RAVA DOSA</h1>
+            <P id="t3">Do you want to order a Rava Dosa</P>
+            <h3>Rs.70/-</h3>
+            <form >
+              <label for="ravadosa">QUANTITY:</label>
+              <input type="number" id="ravadosa" name="ravadosa"><br><br>
+            </form>
+            <center><input type="button" value="click" class="b"  id="btn3" onclick="ordered3()"> </center>
+          </div>
+  
+        <div class="food">
+            <div class="container">
+            <img src="Images/masaladosa.jpeg"  class="image" >
+            <div class="overlay">It Consists of<br> 1 Masaladosa  ,<br>1 cup of sambar,<br>
+              1 cup of onion chutney,<br>1 cup of coconut chutney,<br>1 cup of Mint
+               Chutney,<br>1/2 cup of Idly podi.</div>
+              </div>
+            <h1>MASALA DOSA</h1>
+            <P id="t4">Do you want to order a Masala Dosa</P>
+            <h4>Rs.75/-</h4>
+            <label for="masaladosa">QUANTITY:</label>
+            <input type="number" id="masaladosa" name="masaladosa"><br><br>
+           
+            <center><input type="button" value="click" class="b"  id="btn4" onclick="ordered4()"></center> 
+        </div>
+
+        <div class="food">
+          <div class="container">
+            <img src="Images/onionuttapam.jpeg"  class="image" >
+            <div class="overlay">It Consists of<br> 1  Onion Uttampam  ,<br>1 cup of sambar,<br>
+              1 cup of onion chutney,<br>1 cup of coconut chutney,<br>1 cup of Mint
+               Chutney,<br>1/2 cup of Idly podi.</div>
+              </div>
+            <h1>ONION UTTAPAM</h1>
+            <P id="t5">Do you want to order a Onion Uttampam</P>
+            <h3>Rs.80/-</h3>
+            <form >
+              <label for="onionuttapam">QUANTITY:</label>
+              <input type="number" id="onionuttapam" name="onionuttapam"><br><br>
+            </form>
+            <center><input type="button" value="click" class="b"  id="btn5" onclick="ordered5()"> </center>
+          </div>
+       
+          <div class="food">
+            <img src="Images/tea.jpeg"  class="food-img" height="300" width="250" >
+            <h1> TEA</h1>
+            <P id="t6">Do you want to order a Tea</P>
+            <h3>Rs.20/-</h3>
+            <form >
+              <label for="tea">QUANTITY:</label>
+              <input type="number" id="tea" name="tea"><br><br>
+            </form>
+            <center><input type="button" value="click" class="b"  id="btn6" onclick="ordered6()"> </center>
+          </div>
+  
+        <div class="food">
+            <img src="Images/coffee.jpeg"  class="food-img" height="300" width="250" >
+        
+            <h1>COFFEE</h1>
+            <P id="t7">Do you want to order a Coffee</P>
+            <h3>Rs.20/-</h3>
+            <label for="coffee">QUANTITY:</label>
+            <input type="number" id="coffee" name="coffee"><br><br>
+            
+            <center><input type="button" value="click" class="b"  id="btn7" onclick="ordered7()"> </center>
+        </div>
+
+        <div class="food">
+          <div class="container">
+            <img src="Images/chappathi.jpeg"  class="image" >
+            <div class="overlay">It Consists of<br> 2  Chappathi ,<br>1 cup of channa masala gravy,<br>
+              1 cup of mixed vegetable gravy,<br>1 cup of onion raita .</div>
+              </div>
+            <h1>CHAPPATHI</h1>
+            <P id="t8">Do you want to order a Chappathi</P>
+            <h3>Rs.55/-</h3>
+            <form >
+              <label for="chappathi">QUANTITY:</label>
+              <input type="number" id="chappathi" name="chappathi"><br><br>
+            </form>
+            <center><input type="button" value="click" class="b"  id="btn8" onclick="ordered8()"> </center>
+          </div>
+          
+          <div class="food">
+            <div class="container">
+            <img src="Images/poori.jpeg"  class="image" >
+            <div class="overlay">It Consists of<br> 3 Poori ,<br>1 cup of sambar,<br>
+              1 cup of poori masala.</div>
+              </div>
+            <h1>POORI</h1>
+            <P id="t9">Do you want to order a Poori Set</P>
+            <h3>Rs.60/-</h3>
+            <form >
+              <label for="poori">QUANTITY:</label>
+              <input type="number" id="poori" name="poori"><br><br>
+            </form>
+            <center><input type="button" value="click" class="b"  id="btn9" onclick="ordered9()"> </center>
+          </div>
+          
+          <div class="food">
+            <div class="container">
+            <img src="Images/vada.jpg"  class="image" >
+            <div class="overlay">It Consists of<br> 2 vada ,<br>1 cup of sambar.</div>
+              </div>
+            <h1>VADA</h1>
+            <P id="t10">Do you want to order a Vada</P>
+            <h3>Rs.30/-</h3>
+            <form >
+              <label for="vada">QUANTITY:</label>
+              <input type="number" id="vada" name="vada"><br><br>
+            </form>
+            <center><input type="button" value="click" class="b"  id="btn10" onclick="ordered10()"> </center>
+          </div>
+
+          <div class="food">
+            <div class="container">
+            <img src="Images/salad.jpeg"  class="image" >
+            <div class="overlay">It Consists of following vegetable<br>carrot,<br>onion,
+              <br>cucumber,<br>tomatoes,<br>green chillies,<br>,and some others vegetables
+              <br>and some seeds and nuts.</div>
+              </div>
+            <h1>VEG SALAD</h1>
+            <P id="t11">Do you want to order a Veg Salad</P>
+            <h3>Rs.120/-</h3>
+            <form >
+              <label for="salad">QUANTITY:</label>
+              <input type="number" id="salad" name="salad"><br><br>
+            </form>
+            <center><input type="button" value="click" class="b"  id="btn11" onclick="ordered11()"> </center>
+          </div>
+          
+          <div class="food">
+            <div class="container">
+            <img src="Images/sandwitch.jpg"  class="image" >
+            <div class="overlay">It Consists of<br> 1 sandwitch ,<br>1 omlette</div>
+              </div>
+            <h1>SANDWITCH</h1>
+            <P id="t12">Do you want to order a Sandwitch</P>
+            <h3>Rs.100/-</h3>
+            <form >
+              <label for="sandwitch">QUANTITY:</label>
+              <input type="number" id="sandwitch" name="sandwitch"><br><br>
+            </form>
+            <center><input type="button" value="click" class="b"  id="btn12" onclick="ordered12()"> </center>
+          </div> 
+
+          <div class="food">
+            <img src="Images/kesari.jpeg"  class="food-img" height="300" width="250" >
+            <h1>RAVA KESARI</h1>
+            <P id="t13">Do you want to order a Rava Kesari</P>
+            <h3>Rs.40/-</h3>
+            <form >
+              <label for="kesari">QUANTITY:</label>
+              <input type="number" id="kesari" name="kesari"><br><br>
+            </form>
+            <center><input type="button" value="click" class="b"  id="btn13" onclick="ordered13()"> </center>
+          </div>
+
+          <div class="food">
+            <div class="container">
+            <img src="Images/ravakichadi.jpeg" class="image" >
+            <div class="overlay">It Consists of<br>1 cup of Rava Kichadi,<br>
+            1 cup of coconut chutney.</div>
+              </div>
+            <h1>RAVA KICHADI</h1>
+            <P id="t14">Do you want to order a Rava Kichadi</P>
+            <h3>Rs.50/-</h3>
+            <form >
+              <label for="ravakichadi">QUANTITY:</label>
+              <input type="number" id="ravakichadi" name="ravakichadi"><br><br>
+            </form>
+            <center><input type="button" value="click" class="b"  id="btn14" onclick="ordered14()"> </center>
+          </div> 
+              
+          <div class="food">
+            <div class="container">
+            <img src="Images/appam.jpeg"  class="image" >
+            <div class="overlay">It Consists of<br> 2 Appam  ,<br>1 cup of Coconut Milk,<br>
+              1 cup of vegetable gravy.</div>
+          </div>
+            <h1>APPAM</h1>
+            <P id="t15">Do you want to order a Appam</P>
+            <h3>Rs.70/-</h3>
+            <form >
+              <label for="appam">QUANTITY:</label>
+              <input type="number" id="appam" name="appam"><br><br>
+            </form>
+            <center><input type="button" value="click" class="b"  id="btn15" onclick="ordered15()"> </center>
+          </div>    
+                   
+          <div class="food">
+            <div class="container">
+            <img src="Images/idiyappam.jpeg"  class="image" >
+            <div class="overlay">It Consists of<br> 1 Idiyappam ,<br>1 cup of Coconut Milk,<br>
+              1 cup of vegetable gravy.  </div>
+              </div>
+            <h1>IDIYAPPAM </h1>
+            <P id="t16">Do you want to order a Idiyappam</P>
+            <h3>Rs.75/-</h3>
+            <form >
+              <label for="idiyappam">QUANTITY:</label>
+              <input type="number" id="idiyappam" name="idiyappam"><br><br>
+            </form>
+            <center><input type="button" value="click" class="b"  id="btn16" onclick="ordered16()"> </center>
+          </div> 
+
+          <div class="food">
+            <div class="container">
+            <img src="Images/puttu.jpeg"  class="image" >
+            <div class="overlay">It Consists of<br> 1 Cylindrical Roll shaped Puttu,
+              <br>1 cup of Kadala Kari,<br>1 cup of Cherupayar Curry,
+              <br>1 Banana,<br>1 Fried Pappadam.</div>
+              </div>
+            <h1>KERALA SPECIAL PUTTU</h1>
+            <P id="t17">Do you want to order a Kerala Special Puttu</P>
+            <h3>Rs.200/-</h3>
+            <form>
+            <br><label for="kerala_special_puttu">QUANTITY:</label>
+              <input type="number" id="kerala_special_puttu" name="kerala_special_puttu"><br><br>
+            </form>
+            <center><input type="button" value="click" class="b"  id="btn17" onclick="ordered17()"> </center>
+          </div> 
+
+          <div class="food">
+            <div class="container">
+            <img src="Images/venpongal.jpg"  class="image" >
+            <div class="overlay">It Consists of<br> 1 cup of Ven Pongal,
+              <br>1 cup of coconut chutney,<br>1 cup of sambar.</div>
+              </div>
+            <h1>VEN PONGAL</h1>
+            <P id="t18">Do you want to order a Ven Pongal</P>
+            <h3>Rs.45/-</h3>
+            <form >
+              <label for="venpongal">QUANTITY:</label>
+              <input type="number" id="venpongal" name="venpongal"><br><br>
+            </form>
+            <center><input type="button" value="click" class="b"  id="btn18" onclick="ordered18()"> </center>
+          </div> 
+    </div>   
+    <center><input type="button" value="GENERATE BILL" class="button"  id="button"  onclick="bill()">      
+</center>
+    </body>
+</html>

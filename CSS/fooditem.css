@@ -1,0 +1,74 @@
+
+.flex{
+ display:flex;
+ justify-content: center;
+flex-wrap: wrap;
+}
+.food{
+    
+    border: 3px solid rgb(174, 28, 28);
+    width: 300px;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 16px;
+    transition: 300ms;
+    background-color:greenyellow;
+}
+.food-img{
+     height: 160 px; 
+    object-fit: cover;
+     width: 100%; 
+    border-radius: 16px;
+
+}
+
+
+.b{
+    background-color:white;
+    color: red;
+    padding: 20px;
+    font-size: 15px;
+    border-radius: 10px;
+
+}
+.button{
+    padding: 10px;
+    border:3px solid green;
+    background-color: chartreuse;
+    font-size: medium;
+    
+}
+.container {
+    position: relative;
+    width: 100%;
+    /* height:160px; */
+     max-width: 300px; 
+  }
+  .image {
+    display: block;
+     width:100%;  
+     height: 300px;
+     object-fit: cover;
+     border-radius: 16px;
+  }
+  .overlay {
+    position: absolute;
+    bottom: 0;
+    background: black;
+    background: black;
+    color: white;
+    width: 100%;
+    transition: .7s ease;
+    opacity: 0;
+    color: white;
+    font-size: 20px;
+    padding: 0px;
+    text-align: center;
+  }
+  .container:hover .overlay {
+    opacity: 1;
+  }
+  .b:hover{
+    box-shadow:0 8px 16px 0 black,0 6px 20px 0 rgba(0,0,0,0.19);
+  }
+ 
